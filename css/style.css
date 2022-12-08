@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+/* Nav Bar */
+
+nav{
+    background-color: black;
+}
+
+.navbar-dark {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav{
+    --bs-nav-link-hover-color: red;
+}
+
+.navbar-toggler:hover {
+    color: red
+}
+
+/* Ex Nav Bar */
+
+/* header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.26);
+}
+
+header div img {
+    height: 55px;
+    margin-left: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ */
+
+/* index.html */
+
+main{
+    background-color: rgba(214, 213, 213, 0.767);
+}
+
+.boxInicio {
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/46/2f/56/462f56d9c11e41741daae2c35c70f069.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    padding: 20px;
+    margin: auto;
+}
+
+.boxInicio h1{
+    text-decoration: underline;
+    font-size: 4rem;
+    padding-bottom: 10px;
+}
+
+.boxInicio h3 {
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boxInicio p{
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boxMedia{
+
+    color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxMedia img{
+    margin: 75px;
+    height: 350px;
+    width: 350px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.26);
+}
+
+.boxMediaTxt{
+    height: 350px;
+    width: 950px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.boxMediaTxt h3{
+    font-size: 2rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.boxMediaTxt p{
+    font-size: 1.25rem;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.boxMediaTxt button{
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.699);
+    margin-top: 20px;
+    border-radius: 15px;
+    border-color: rgba(255, 0, 0, 0.26);
+}
+
+.boxMediaTxt a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.boxFinal {
+    text-align: center;
+    background-image: url(https://www.zastavki.com/pictures/originals/2014/Space_Black_Earth_079386_.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+.boxFinalTitulo h3{
+    font-size: 3rem;
+    padding: 15px;
+    height: 75px;
+    margin: 10px;
+}
+
+.boxFinalFlex{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.boxFinalFlex p{
+    height: 150px;
+    width: 300px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(214, 213, 213, 0.767);
+    padding: 5px;
+    display: block;
+}
+
+footer img{
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.footerTxt a{
+    height: 150px;
+    color: black;
+    margin: 10px;
+}
+
+.footerTxt p{
+    margin: 10px;
+}
+
+/* VPN.html */
+
+#buttondark{
+    margin-left:35% ;
+}
+
+#vpn img {
+    width: 100%;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+#vpntxt1 {
+    margin-top: 10%;
+}
+
+.vpnsect1 {
+    height: 1px;
+    align-items: center;
+}
+
+#vpnimg1{
+    border-radius: 70px;
+}
+
+#vpnimg2{
+    height: 400px;
+    padding: 10px;
+    border-bottom-left-radius: 100px;
+}
+
+@media (max-width: 700px){
+    .boxInicio{
+        height: 800px; 
+    }
+    .boxInicio p{
+        font-size: 1.75rem;
+    }
+    .boxInicio h1{
+        font-size: 3rem;
+    }
+    .boxInicio h3{
+        font-size: 2.5rem;
+    }
+    .boxMedia{
+        height: 1100px;
+        display: block;
+        text-align: center;
+    }
+    .boxMedia img{
+        margin: 50px;
+    }
+    .boxMediaTxt{
+        width: 100%;
+    }
+    .boxFinal{
+        height: 900px;
+    }
+    .boxFinalTitulo{
+        display: inline-block;
+        text-decoration: underline;
+    }
+    .boxFinalFlex{
+        flex-wrap: wrap;
+    }
+    .boxFinalFlex p{
+        margin-top: 70px;
+        font-size: 2rem;
+    }
+}
+
