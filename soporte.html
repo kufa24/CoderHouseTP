@@ -15,8 +15,6 @@
 
 <body>
     <header>
-        <header>
-
             <body>
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
@@ -47,7 +45,6 @@
                     </div>
                     </div>
                 </nav>
-        </header>
     </header>
 
     <!-- Ex Nav-Bar
@@ -68,29 +65,64 @@
 
     <main>
         <div>
-            <h3>Bienvenido al Servicio de Soprote de HyperSecure</h2>
+            <h3>Bienvenido al Servicio de Soporte de HyperSecure</h2>
                 <p>Por favor, complete el siguiente formulario y nos contactaremos con usted.</p>
                 <img src="https://www.obicex.es/wp-content/uploads/2022/07/que-es-el-soporte-informatico.jpg"
                     alt="Imagen Soporte">
         </div>
-        <section>
-            <form>
-                <label for="nombre">Nombre:</label>
-                <input id="nombre" name="nombre" placeholder="Nombre completo">
-                <label for="email">Email:</label>
-                <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
-                <input id="submit" name="submit" type="submit" value="Enviar">
-            </form>
-        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <div class="form-group m-2">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group m-2">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group m-2">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="email" placeholder="Email (ejemplo@email.com)" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group m-2">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="tel" pattern="[0-9]{9}" placeholder="Numero de Teléfono (Solo Números)" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group m-2">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Escribe aquí tu mensaje" rows="7"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group m-2">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <img src="img/logo.png" alt="Logo">
         <div class="footerTxt">
             <a href="soporte.html">Contactar al Soporte</a>
-            <p>Copyright © 2005-2021 Programación en Castellano. Todos los
-                derechos reservados</p>
+            <p>Copyright © 2005-2021 Programación en Castellano. Todos los derechos reservados</p>
         </div>
     </footer>
 </body>

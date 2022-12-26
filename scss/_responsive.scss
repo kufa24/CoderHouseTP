@@ -1,0 +1,55 @@
+@media (max-width: 700px){
+    .nav-link {
+        font-size: 2rem;
+    }
+
+    .boxInicio{
+        height: 800px;
+        p{
+            font-size: 1.75rem;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 2.5rem;
+        }
+    }
+
+    .boxMedia{
+        height: 1100px;
+        display: block;
+        text-align: center;
+        img{
+            margin: 0;
+            margin-top: 50px;
+            height: 300px;
+            width: 300px;
+        }
+    }
+
+    .boxMediaTxt{
+        width: 100%;
+    }
+
+    .boxFinal{
+        height: 900px;
+    }
+
+    .boxFinalTitulo{
+        display: inline-block;
+        text-decoration: underline;
+    }
+
+    .boxFinalFlex{
+        flex-wrap: wrap;
+        p{
+            margin-top: 70px;
+            font-size: 1.75rem;
+        }
+    }
+
+    #vpnimg1{
+        display: none;
+    }
+}
