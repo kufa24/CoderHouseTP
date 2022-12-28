@@ -32,7 +32,7 @@ main {
 
 .boxInicio {
   text-align: center;
-  background-image: url(/img/Inicio1.jpg);
+  background-image: url(../img/Inicio1.jpg);
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -117,7 +117,7 @@ main {
 
 .boxFinal {
   text-align: center;
-  background-image: url(/img/Inicio3.jpg);
+  background-image: url(../img/Inicio3.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -309,7 +309,7 @@ table th {
 
 /* soporte.html */
 #soporteInicio {
-  background-image: url(/img/Soporte.jpg);
+  background-image: url(../img/Soporte.jpg);
   height: 70vh;
   background-position: center;
   background-size: cover;
