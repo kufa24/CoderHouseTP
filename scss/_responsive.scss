@@ -23,6 +23,7 @@
     .boxFinalTitulo{
         display: inline-block;
         text-decoration: underline;
+        height: auto;
     }
 
     .boxFinalFlex{
@@ -90,5 +91,14 @@
 
     #vpnimg1{
         display: none;
+    }
+
+    #soporteInicio{
+        h3{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 2rem;
+        }
     }
 }

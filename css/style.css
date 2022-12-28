@@ -351,6 +351,7 @@ table th {
   .boxFinalTitulo {
     display: inline-block;
     text-decoration: underline;
+    height: auto;
   }
   .boxFinalFlex {
     flex-wrap: wrap;
@@ -410,5 +411,11 @@ table th {
   }
   #vpnimg1 {
     display: none;
+  }
+  #soporteInicio h3 {
+    font-size: 3rem;
+  }
+  #soporteInicio p {
+    font-size: 2rem;
   }
 }
