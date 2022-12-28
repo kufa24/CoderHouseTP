@@ -402,6 +402,9 @@ table th {
     display: inline-block;
     text-decoration: underline;
   }
+  .boxFinalTitulo h3 {
+    font-size: 3rem;
+  }
   .boxFinalFlex {
     flex-wrap: wrap;
   }
