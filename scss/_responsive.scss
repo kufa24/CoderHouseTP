@@ -34,7 +34,7 @@
         }
     }
     #vpnimg1{
-        display: none;
+        display: none;  
     }
 }
 
@@ -92,16 +92,25 @@
         }
     }
 
+    #imganti{
+        height: 88%;
+    }
+
     #vpnimg1{
         display: none;
     }
 
     #soporteInicio{
-        h3{
+        border-radius: 0px;
+        h1{
             font-size: 3rem;
         }
         p{
             font-size: 2rem;
         }
+    }
+
+    #soporteInicio:before{
+        border-radius: 0px;
     }
 }
